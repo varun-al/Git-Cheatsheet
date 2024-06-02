@@ -11,7 +11,7 @@
 
 --- -->
 
-## Configuration and Setup
+## Configuration and Setup :
 Sets the username to be used for all commits on the machine.
 ```
 git config --global user.name "[name]"
@@ -22,7 +22,7 @@ git config --global user.email "[email address]"
 ```
 ---
 
-## Starting a Project
+## Starting a Project :
 
 Initializes a new local repository.
 ```
@@ -34,7 +34,7 @@ git clone [url]
 ```
 ---
 
-## Changes and Staging
+## Changes and Staging :
 
 Shows the status of modified files in the working directory.
 ```
@@ -54,7 +54,7 @@ git commit -m "[commit message]"
 ```
 
 ---
-## Managing Commits
+## Managing Commits :
 
 Modifies the last commit.
 ```
@@ -82,7 +82,7 @@ git revert [commit]
 ```
 ---
 
-## Branches and Merging
+## Branches and Merging :
 
 Lists all branches in the repository.
 ```
@@ -106,7 +106,7 @@ git branch -d [branch-name]
 ```
 ---
 
-## Sharing and Updating Projects
+## Sharing and Updating Projects :
 
 Uploads local branch commits to the remote repository branch.
 ```
@@ -118,7 +118,7 @@ git pull
 ```
 ---
 
-## Inspection & Comparison
+## Inspection & Comparison :
 
 Displays the version history for the current branch.
 ```
@@ -134,7 +134,7 @@ git diff [branchB]
 ```
 ---
 
-## Working with Specific Commits
+## Working with Specific Commits :
 
 Shows metadata and content changes of the specified commit.
 ```
@@ -158,7 +158,7 @@ git reset --hard [commit]
 ```
 ---
 
-## Undoing Changes
+## Undoing Changes :
 
 Undoes all commits after [commit], preserving changes locally.
 ```
